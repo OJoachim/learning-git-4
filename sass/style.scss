@@ -4,36 +4,46 @@ body {
 	text-align: center;
 }
 
+.card {
+	border: none;
+}
+
 i {
     padding: 0 5px;
 	color: #108529;
 }
 
-.card {
-	border: none;
-}
-
-h5,
+.subtitle-in-section,
 p {
 	color: #696660;
 	font-style: italic;
 	margin-bottom: 30px;
 }
 
-h4 {
+.subtitle-in-card {
 	margin-bottom: 30px;
-}
-
-/* Header */
-
-header > .card-body,
-header > .card-item {
-	margin: 0 auto;
-	height: 100vh;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 95%;
 }
 
 .card-body {
 	font-size: 16px;
+}
+
+/* Header */
+
+header {
+	background-image: url("images/niebo0.jpg");
+	object-fit: cover;
+}
+
+header .card,
+header .card-body {
+	background: transparent;
+	width: 100%;
+	margin: 0 auto;
+	height: 100vh;
 }
 
 .navbar {
@@ -61,33 +71,26 @@ header > .card-item {
 }
 
 .title {
-	margin-top: 30%;
-	margin-bottom: 25%;
-}
-
-.title h3 {
-	font-style: italic;
-	font-size: 150%
+	margin-top: 20%;
+	margin-bottom: 20%;
 }
 
 .title h1 {
 	font-weight: bold;
-	font-size: 200%
+	font-size: 200%;
+	color: #ffffff;
+}
+
+.welcome {
+	font-style: italic;
+	font-size: 150%;
+	color: #ffffff;
 }
 
 .title .btn {
 	margin-top: 50px;
-	font-size: 120%
-}
-
-.card-item img {
-  height: 100%;
-  object-fit: cover;
-}
-
-.title > h1, 
-.title > h3 {
-  color: #ffffff;
+	font-size: 120%;
+	margin-bottom: 10px;
 }
 
 /* Three-columns */
@@ -102,12 +105,6 @@ header > .card-item {
 	width: 100%;
 	height: 300px;
 	object-fit: cover;
-}
-
-.three-columns h4 {
-	font-style: normal;
-	font-weight: bold;
-	font-size: 95%;
 }
 
 .three-columns p {

@@ -9,6 +9,50 @@ i {
 	color: #108529;
 }
 
+.card {
+	border: none;
+}
+
+h5,
+p {
+	color: #696660;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+
+h4 {
+	margin-bottom: 30px;
+}
+
+
+/* Three-columns */
+
+.fa-laptop,
+.fa-lock,
+.fa-cart-arrow-down {
+	font-size: 50px;
+}
+
+.card-image img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+.three-columns h4 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 95%;
+}
+
+.three-columns p {
+	font-size: 85%;
+}
+
+.six-columns {
+	background: #f0eee9;
+}
+
 /* Footer */
 
 footer {

@@ -1,0 +1,21 @@
+/* Global */
+body {
+  text-align: center;
+}
+
+i {
+  padding: 0 5px;
+  color: #108529;
+}
+
+/* Footer */
+footer {
+  font-size: 90%;
+  font-style: normal;
+  margin: 0;
+}
+
+.fab {
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
